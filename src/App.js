@@ -181,17 +181,17 @@ function App() {
         <div className="wrapper">
           <Header onClickCart={() => setCartOpened(true)} onClickFavorite={() => setFavoritesOpened(true)} />
           <Routes>
-            <Route path="/favorites"
+            <Route path="favorites"
               element={
                 <Favorites />
               }
             />
-            <Route path="/orders"
+            <Route path="orders"
               element={
                 <Orders />
               }
             />
-            <Route path="/"
+            <Route path=""
               element={
                 <Home
                   items={items}

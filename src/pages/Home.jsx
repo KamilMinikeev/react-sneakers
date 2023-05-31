@@ -29,7 +29,7 @@ function Home({ items, searchValue, setSearchValue, onChangeSearchInput, onCart,
                 <div className='input-inner'>
                     <input onChange={onChangeSearchInput} value={searchValue} placeholder="Поиск..." />
                     <button onClick={() => setSearchValue('')} className="content__header-remove">
-                        <img src="/images/btn-remove.svg" alt="remove" />
+                        <img src="images/btn-remove.svg" alt="remove" />
                     </button>
                 </div>
 

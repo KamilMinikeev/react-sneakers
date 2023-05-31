@@ -20,7 +20,7 @@ function Header({ onClickCart, onClickFavorite }) {
 
     return (
         <header className="header">
-            <Link to="/">
+            <Link to="">
                 <div className="header__content">
                     <img alt="" src="/images/logo.png"></img>
                     <div className="header__info">
@@ -31,18 +31,18 @@ function Header({ onClickCart, onClickFavorite }) {
             </Link>
             <ul className="header__list">
                 <li onClick={open} style={{ cursor: 'pointer' }}>
-                    <img alt="" src="/images/basket.svg"></img>
+                    <img alt="" src="images/basket.svg"></img>
                     <span>{totalPrice} руб.</span>
                 </li>
                 <li onClick={favorites} style={{ cursor: 'pointer' }}>
                     <Link to="/favorites">
-                        <img alt="" src="/images/favorite.svg"></img>
+                        <img alt="" src="images/favorite.svg"></img>
                     </Link>
                 </li>
 
                 <li style={{ cursor: 'pointer' }}>
                     <Link to="/orders">
-                        <img alt="" src="/images/user.svg"></img>
+                        <img alt="" src="images/user.svg"></img>
                     </Link>
                 </li>
             </ul>

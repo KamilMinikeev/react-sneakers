@@ -52,7 +52,7 @@ function Orders() {
                     <Empty
                         title={'У вас нет заказов'}
                         description={'Оформите хотя бы один заказ.'}
-                        image={"/images/icon1.png"}
+                        image={"images/icon1.png"}
                     />
             }
 

@@ -53,8 +53,8 @@ function Card({ onClickPlus, onClickFavorite, cardId, title, price, imageUrl, fa
                         {onClickFavorite &&
                             <div className="favorite" onClick={() => favorite()}>
                                 {
-                                    favorited ? <img src="/images/heart-liked.svg" alt="unliliked" className="card__like-img" /> :
-                                        <img src={isItemFavorite(cardId) ? '/images/heart-liked.svg' : '/images/heart-not-liked.svg'} alt="unliliked" className="card__like-img" />
+                                    favorited ? <img src="images/heart-liked.svg" alt="unliliked" className="card__like-img" /> :
+                                        <img src={isItemFavorite(cardId) ? 'images/heart-liked.svg' : 'images/heart-not-liked.svg'} alt="unliliked" className="card__like-img" />
                                 }
 
                             </div>}
@@ -69,7 +69,7 @@ function Card({ onClickPlus, onClickFavorite, cardId, title, price, imageUrl, fa
                             </div>
                             {onClickPlus &&
                                 <button className="card__btn" onClick={plus}>
-                                    <img src={isItemAdded(cardId) ? "/images/btn-checked.svg" : "/images/btn-plus.svg"} alt="Plus" />
+                                    <img src={isItemAdded(cardId) ? "images/btn-checked.svg" : "images/btn-plus.svg"} alt="Plus" />
                                 </button>}
                         </div>
                     </>

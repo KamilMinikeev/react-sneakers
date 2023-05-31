@@ -33,7 +33,7 @@ function Favorites() {
                     <Empty
                         title={'Закладок нет :('}
                         description={'Вы ничего не добавляли в закладки'}
-                        image={"/images/icon2.png"}
+                        image={"images/icon2.png"}
                     />
             }
 
